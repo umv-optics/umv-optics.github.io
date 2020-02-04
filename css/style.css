@@ -10277,7 +10277,6 @@ body.noScroll {
     #mainSlider .slide-txt2 {
       display: none; }
     #mainSlider .slide-btn {
-      display: none;
       margin-top: 20px; }
       #mainSlider .slide-btn [class*='icon-'] {
         display: none; }

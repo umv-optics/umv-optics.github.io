@@ -10881,6 +10881,44 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
     max-width: 100%;
     width: auto !important;
     transition: 0.75s; }
+  .special-card-caption-offer {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    @media (max-width: 1229px) {
+      .special-card-caption-offer {
+        width: 80%; } }
+    @media (max-width: 1023px) {
+      .special-card-caption-offer {
+        width: 80%; } }
+  .special-card-caption-value {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #333;
+    padding: 5px;
+    background-color: #ffffff99;
+    border-radius: 5px; }
+    @media (max-width: 1229px) {
+      .special-card-caption-value {
+        font-size: 28px; } }
+    @media (max-width: 1023px) {
+      .special-card-caption-value {
+        font-size: 20px; } }
+    @media (max-width: 767px) {
+      .special-card-caption-value {
+        font-size: 18px; } }
+  .special-card-caption-to-pay {
+    position: absolute;
+    right: 10px;
+    bottom: 5px; }
   .special-card-caption {
     position: absolute;
     top: 0;
@@ -10984,7 +11022,8 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   overflow: hidden; }
   .special-carousel .special-card {
     margin-top: 15px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    border: 3px solid #062973; }
     @media (max-width: 767px) {
       .special-carousel .special-card {
         margin-top: 0; } }

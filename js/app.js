@@ -16,8 +16,8 @@ $(function () {
 
 		// Google map options
 		googleMapOption = {
-			latitude: 3.4157947,
-			longitude: -76.532142,
+			latitude: 3.4022826,
+			longitude: -76.5321424,
 			zoom: 17,
 			marker: [
 				['UMV', 3.4151547, -76.530602, 1, '/images/map-marker.png']
